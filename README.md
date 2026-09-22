@@ -12,5 +12,5 @@ pipenv install
 python -m bot
 ```
 
-`Pipfile` pins discord.py's `rewrite` branch along with `aiohttp` and `websockets`; a bot
-token is read from the environment.
+`Pipfile` pins discord.py's `rewrite` branch along with `aiohttp` and `websockets`; the
+token is read from `TOKEN_DISCORD` in the environment.
